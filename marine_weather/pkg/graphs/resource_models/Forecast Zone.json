@@ -1,0 +1,888 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "48867bb3-233b-42e2-a4a5-4cba64135fe7",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "name": {
+                        "en": "Zone Details"
+                    },
+                    "nodegroup_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "sortorder": 1,
+                    "source_identifier_id": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "5792e408-086d-46ca-80a6-4272d6b6fdbc",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "name": {
+                        "en": "Zone Identifiers"
+                    },
+                    "nodegroup_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "9d285d53-1fdc-4650-96a5-ae62945d8a4d",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "name": {
+                        "en": "Zone Boundary"
+                    },
+                    "nodegroup_id": "4e73b0ac-3f81-4490-b5ca-5329eee055fb",
+                    "sortorder": 2,
+                    "source_identifier_id": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "5792e408-086d-46ca-80a6-4272d6b6fdbc",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Feature ID",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "263f8966-4d67-4fc6-8981-528d4f466776",
+                    "label": {
+                        "en": "Feature ID"
+                    },
+                    "node_id": "ce3debee-9ef2-4fdf-b3dd-4287b68b1518",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "46ef064b-2611-4708-9f52-60136bd8a65b"
+                },
+                {
+                    "card_id": "5792e408-086d-46ca-80a6-4272d6b6fdbc",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
+                        "label": "CLC",
+                        "max": "",
+                        "min": "",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
+                        "precision": "",
+                        "prefix": {
+                            "en": ""
+                        },
+                        "step": "",
+                        "suffix": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "42e5d6eb-7958-4f72-acaa-632a54ab4783",
+                    "label": {
+                        "en": "CLC"
+                    },
+                    "node_id": "c2a6c160-d9a1-4761-90df-1636f58c0298",
+                    "sortorder": 3,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "5792e408-086d-46ca-80a6-4272d6b6fdbc",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
+                        "label": "Object ID",
+                        "max": "",
+                        "min": "",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
+                        "precision": "",
+                        "prefix": {
+                            "en": ""
+                        },
+                        "step": "",
+                        "suffix": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "47f88b00-1559-4d05-b7ab-4dfd46fca112",
+                    "label": {
+                        "en": "Object ID"
+                    },
+                    "node_id": "cc30ddc5-f5d6-481f-bf9c-7487ae0b8bec",
+                    "sortorder": 2,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "5792e408-086d-46ca-80a6-4272d6b6fdbc",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Zone Name",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "80a2423f-a1d8-482f-b4e8-2bc68864d4a7",
+                    "label": {
+                        "en": "Zone Name"
+                    },
+                    "node_id": "a74cb010-daa2-455c-868f-0d48a9a88dce",
+                    "sortorder": 1,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "9d285d53-1fdc-4650-96a5-ae62945d8a4d",
+                    "config": {
+                        "basemap": "streets",
+                        "bearing": 0,
+                        "centerX": 0,
+                        "centerY": 0,
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Zone Boundary",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": 0
+                    },
+                    "id": "ce5d87b1-c0ac-4196-8314-86d20dac91f5",
+                    "label": {
+                        "en": "Zone Boundary"
+                    },
+                    "node_id": "4e73b0ac-3f81-4490-b5ca-5329eee055fb",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "edgeid": "3b3020a5-84cd-4f14-a86b-07d5f44b047d",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "ce3debee-9ef2-4fdf-b3dd-4287b68b1518",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "edgeid": "5e0a01c3-8683-4789-afff-054419e7ddeb",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "a74cb010-daa2-455c-868f-0d48a9a88dce",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "edgeid": "601e7d1f-2413-485b-b9ef-ee00104734af",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "87c836cc-6087-4816-ad8f-9084d5f79dcb",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a6d9c1dd-796b-458e-967b-936968eb6a5a",
+                    "edgeid": "61e82275-259d-4415-84cd-a8dd55cd44e8",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "edgeid": "6fda7591-b154-42b3-b25e-85a7b48ecde6",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "67e6ef3b-2980-49c8-8271-423284cf9f4e",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "edgeid": "86a00d65-27d2-46c8-8043-10010ffaad73",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "b42bbb6c-e7f3-4c48-abb8-5ef461d20e0f",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a6d9c1dd-796b-458e-967b-936968eb6a5a",
+                    "edgeid": "97b150df-03de-4157-b46a-1a26952e2a37",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "edgeid": "b4c1bb32-aa81-4bf6-90de-defa363b52e5",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "cc30ddc5-f5d6-481f-bf9c-7487ae0b8bec",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a6d9c1dd-796b-458e-967b-936968eb6a5a",
+                    "edgeid": "b6060b3c-8cf0-4ac0-84be-605834dd7e62",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "4e73b0ac-3f81-4490-b5ca-5329eee055fb",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "edgeid": "d2536b8f-80d4-405b-a609-9e10ef27df05",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "c2a6c160-d9a1-4761-90df-1636f58c0298",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "edgeid": "efeb02f6-7c89-4dcd-9fc0-820bd76b904f",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "56f53d14-8fe3-46f7-9554-e7e3224d66fc",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "edgeid": "f48b6a98-abfa-4fa8-b527-dccd9437e6ab",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "ca211dde-d4c3-4fdb-b42d-901bf5c8443a",
+                    "source_identifier_id": null
+                }
+            ],
+            "functions_x_graphs": [
+                {
+                    "config": {
+                        "descriptor_types": {
+                            "description": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "map_popup": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "name": {
+                                "nodegroup_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                                "string_template": "<Zone Name>"
+                            }
+                        },
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "60000000-0000-0000-0000-000000000001",
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "id": "79cde65c-a37a-4350-bac4-35304bc90c11"
+                }
+            ],
+            "graphid": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+            "group_permissions": {},
+            "has_unpublished_changes": true,
+            "iconclass": "",
+            "is_active": true,
+            "is_copy_immutable": false,
+            "isresource": true,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Forecast Zone"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "grouping_node_id": "4e73b0ac-3f81-4490-b5ca-5329eee055fb",
+                    "legacygroupid": null,
+                    "nodegroupid": "4e73b0ac-3f81-4490-b5ca-5329eee055fb",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "grouping_node_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "legacygroupid": null,
+                    "nodegroupid": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "grouping_node_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "legacygroupid": null,
+                    "nodegroupid": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "zone_boundary",
+                    "config": {
+                        "addToMap": true,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(130, 130, 130, 0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Zone Boundary",
+                    "nodegroup_id": "4e73b0ac-3f81-4490-b5ca-5329eee055fb",
+                    "nodeid": "4e73b0ac-3f81-4490-b5ca-5329eee055fb",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "waterbody_code",
+                    "config": {},
+                    "datatype": "non-localized-string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Waterbody Code",
+                    "nodegroup_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "nodeid": "56f53d14-8fe3-46f7-9554-e7e3224d66fc",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "zone_kind_",
+                    "config": {},
+                    "datatype": "non-localized-string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Zone Kind ",
+                    "nodegroup_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "nodeid": "67e6ef3b-2980-49c8-8271-423284cf9f4e",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "zone_usage",
+                    "config": {},
+                    "datatype": "non-localized-string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Zone Usage",
+                    "nodegroup_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "nodeid": "87c836cc-6087-4816-ad8f-9084d5f79dcb",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "new_resource_model",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Forecast Zone",
+                    "nodegroup_id": null,
+                    "nodeid": "a6d9c1dd-796b-458e-967b-936968eb6a5a",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "zone_name",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Zone Name",
+                    "nodegroup_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "nodeid": "a74cb010-daa2-455c-868f-0d48a9a88dce",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "zone_depiction",
+                    "config": {},
+                    "datatype": "non-localized-string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Zone Depiction",
+                    "nodegroup_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "nodeid": "b42bbb6c-e7f3-4c48-abb8-5ef461d20e0f",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "zone_details",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Zone Details",
+                    "nodegroup_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "nodeid": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "clc",
+                    "config": {},
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "CLC",
+                    "nodegroup_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "nodeid": "c2a6c160-d9a1-4761-90df-1636f58c0298",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "province_code",
+                    "config": {},
+                    "datatype": "non-localized-string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Province Code",
+                    "nodegroup_id": "b6e183ea-8087-4852-ba00-1314f6067941",
+                    "nodeid": "ca211dde-d4c3-4fdb-b42d-901bf5c8443a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "object_id",
+                    "config": {},
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Object ID",
+                    "nodegroup_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "nodeid": "cc30ddc5-f5d6-481f-bf9c-7487ae0b8bec",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "feature_id",
+                    "config": {},
+                    "datatype": "non-localized-string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Feature ID",
+                    "nodegroup_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "nodeid": "ce3debee-9ef2-4fdf-b3dd-4287b68b1518",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "zone_identifiers",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Zone Identifiers",
+                    "nodegroup_id": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "nodeid": "f5cf519f-5165-4a6a-8738-20f7afe63728",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": null,
+            "publication": {
+                "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                "most_recent_edit_id": null,
+                "notes": "Initial Cut of Zones",
+                "publicationid": "ffcaaf72-26e8-4f7d-ad1d-788f3cc09c20",
+                "published_time": "2026-03-17T01:49:06.235"
+            },
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "resource_instance_lifecycle": {
+                "id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75",
+                "name": {
+                    "en": "Standard"
+                },
+                "resource_instance_lifecycle_states": [
+                    {
+                        "action_label": {
+                            "en": "Revert to Draft"
+                        },
+                        "can_delete_resource_instances": true,
+                        "can_edit_resource_instances": true,
+                        "id": "9375c9a7-dad2-4f14-a5c1-d7e329fdde4f",
+                        "is_initial_state": true,
+                        "name": {
+                            "en": "Draft"
+                        },
+                        "next_resource_instance_lifecycle_states": [
+                            "f75bb034-36e3-4ab4-8167-f520cf0b4c58"
+                        ],
+                        "previous_resource_instance_lifecycle_states": [],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    },
+                    {
+                        "action_label": {
+                            "en": "Make Active"
+                        },
+                        "can_delete_resource_instances": false,
+                        "can_edit_resource_instances": true,
+                        "id": "f75bb034-36e3-4ab4-8167-f520cf0b4c58",
+                        "is_initial_state": false,
+                        "name": {
+                            "en": "Active"
+                        },
+                        "next_resource_instance_lifecycle_states": [
+                            "d95d9c0e-0e2c-4450-93a3-d788b91abcc8"
+                        ],
+                        "previous_resource_instance_lifecycle_states": [
+                            "9375c9a7-dad2-4f14-a5c1-d7e329fdde4f"
+                        ],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    },
+                    {
+                        "action_label": {
+                            "en": "Retire"
+                        },
+                        "can_delete_resource_instances": false,
+                        "can_edit_resource_instances": false,
+                        "id": "d95d9c0e-0e2c-4450-93a3-d788b91abcc8",
+                        "is_initial_state": false,
+                        "name": {
+                            "en": "Retired"
+                        },
+                        "next_resource_instance_lifecycle_states": [],
+                        "previous_resource_instance_lifecycle_states": [
+                            "f75bb034-36e3-4ab4-8167-f520cf0b4c58"
+                        ],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    }
+                ]
+            },
+            "root": {
+                "alias": "new_resource_model",
+                "config": {},
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "f60477e4-ecc2-495c-a745-d6c4883cdc4d",
+                "hascustomalias": false,
+                "is_collector": false,
+                "is_immutable": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Forecast Zone",
+                "nodegroup_id": null,
+                "nodeid": "a6d9c1dd-796b-458e-967b-936968eb6a5a",
+                "ontologyclass": null,
+                "sortorder": 0,
+                "source_identifier_id": null,
+                "sourcebranchpublication_id": null
+            },
+            "slug": "forecast_zone",
+            "source_identifier_id": null,
+            "spatial_views": [],
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "user_permissions": {},
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.3 (Debian 16.3-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",
+        "git hash": "c4f042194e 2026-03-14 20:05:31 -0700",
+        "os": "Linux",
+        "os version": "6.12.69-linuxkit"
+    }
+}
