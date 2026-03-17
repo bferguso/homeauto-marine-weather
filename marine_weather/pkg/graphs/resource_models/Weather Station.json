@@ -1,0 +1,855 @@
+{
+    "graph": [
+        {
+            "author": "QED System",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "25b19900-5111-453d-894c-0c37d924d5e3",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "name": {
+                        "en": "Station Details"
+                    },
+                    "nodegroup_id": "7e7eb656-81c7-4703-8306-4bfc7cdb698b",
+                    "sortorder": 1,
+                    "source_identifier_id": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "522bf3a8-77a6-4577-bf4c-021cc52f411a",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "name": {
+                        "en": "Station Identifiers"
+                    },
+                    "nodegroup_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "819bcaba-a030-4e84-81e3-44f9b9967848",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": "Lat, Long and elevation of the weather station"
+                    },
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "name": {
+                        "en": "Station Location"
+                    },
+                    "nodegroup_id": "a2919893-9e40-4e26-a4cc-84754076b7f1",
+                    "sortorder": 2,
+                    "source_identifier_id": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "25b19900-5111-453d-894c-0c37d924d5e3",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Automatic Station"
+                    },
+                    "id": "2936168a-511c-41e2-aab4-011c56043947",
+                    "label": {
+                        "en": "Automatic Station"
+                    },
+                    "node_id": "bc1cb687-121d-4fdf-b6e2-4ec594457446",
+                    "sortorder": null,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000006"
+                },
+                {
+                    "card_id": "819bcaba-a030-4e84-81e3-44f9b9967848",
+                    "config": {
+                        "basemap": "streets",
+                        "bearing": 0,
+                        "centerX": 3,
+                        "centerY": 8.5,
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Station Location",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": 0
+                    },
+                    "id": "562211c6-bab0-4d45-915c-766b8fcbadfc",
+                    "label": {
+                        "en": "Station Location"
+                    },
+                    "node_id": "a2919893-9e40-4e26-a4cc-84754076b7f1",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
+                {
+                    "card_id": "25b19900-5111-453d-894c-0c37d924d5e3",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Data Provider",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "7bf21a44-995d-4420-b56f-36260ef6ec83",
+                    "label": {
+                        "en": "Data Provider"
+                    },
+                    "node_id": "4fa48aca-b628-4419-9bd8-a0bbea03b1bb",
+                    "sortorder": null,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "819bcaba-a030-4e84-81e3-44f9b9967848",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
+                        "label": "Feature ID",
+                        "max": "",
+                        "min": "",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
+                        "precision": "",
+                        "prefix": {
+                            "en": ""
+                        },
+                        "step": "",
+                        "suffix": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "92241e81-be8c-456d-8c35-e97cbe946f72",
+                    "label": {
+                        "en": "Feature ID"
+                    },
+                    "node_id": "0c19bb60-14f7-44b3-8d19-90166981f384",
+                    "sortorder": 1,
+                    "source_identifier_id": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": "Information about the Pacific Coast weather stations"
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "edgeid": "045ab9a4-d385-45f3-bb71-1738118799ca",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "c606af6e-08d5-4dda-a1a4-ad55eb696396",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "48083e9f-0849-469a-8b2b-0950fd1ebc53",
+                    "edgeid": "08ea3c9c-bdcf-4807-8039-71d9cde71a62",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "a2919893-9e40-4e26-a4cc-84754076b7f1",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7e7eb656-81c7-4703-8306-4bfc7cdb698b",
+                    "edgeid": "3e6807bf-6fa5-4955-bbfa-e63210bee038",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "05bda0e7-04c5-4771-9b96-c15623e0590c",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "edgeid": "74f95583-a8fc-4f84-ae35-7805f7954fb5",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "ddbd8ded-2f60-473e-9548-20108425fe91",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "edgeid": "8cdba84a-80af-4f09-ac11-d7ce8d49106d",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "0f821242-4c1b-4514-8a2e-05736d3e8634",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "edgeid": "8f06d5cb-3341-4a71-b56a-00ebc22d0fce",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "eb232895-b133-48f6-8666-0ed172111ced",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7e7eb656-81c7-4703-8306-4bfc7cdb698b",
+                    "edgeid": "9b7facdb-81c6-4e08-b472-d268ef8ec8ac",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "4fa48aca-b628-4419-9bd8-a0bbea03b1bb",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7e7eb656-81c7-4703-8306-4bfc7cdb698b",
+                    "edgeid": "c8403aa3-e898-4b22-b460-435c1503193a",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "bc1cb687-121d-4fdf-b6e2-4ec594457446",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "48083e9f-0849-469a-8b2b-0950fd1ebc53",
+                    "edgeid": "cc518941-d8e4-4b77-8977-91cd48193b58",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "7e7eb656-81c7-4703-8306-4bfc7cdb698b",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "48083e9f-0849-469a-8b2b-0950fd1ebc53",
+                    "edgeid": "e168c5c2-867b-4020-930b-50abacc7d745",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a2919893-9e40-4e26-a4cc-84754076b7f1",
+                    "edgeid": "fa9aaa39-6dee-4b7b-899b-3f96452cbb35",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "0c19bb60-14f7-44b3-8d19-90166981f384",
+                    "source_identifier_id": null
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "edgeid": "fe09f43d-d7f5-4a0d-b47d-2edf10cf8d30",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "604c17d5-0672-481e-adc3-d4d4fb553d4a",
+                    "source_identifier_id": null
+                }
+            ],
+            "functions_x_graphs": [
+                {
+                    "config": {
+                        "descriptor_types": {
+                            "description": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "map_popup": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "name": {
+                                "nodegroup_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                                "string_template": "<Station Name>"
+                            }
+                        },
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "60000000-0000-0000-0000-000000000001",
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "id": "1c5d96b3-a06f-403c-9c68-843a65339f7a"
+                }
+            ],
+            "graphid": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+            "group_permissions": {},
+            "has_unpublished_changes": true,
+            "iconclass": "",
+            "is_active": true,
+            "is_copy_immutable": false,
+            "isresource": true,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Weather Station"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "grouping_node_id": "7e7eb656-81c7-4703-8306-4bfc7cdb698b",
+                    "legacygroupid": null,
+                    "nodegroupid": "7e7eb656-81c7-4703-8306-4bfc7cdb698b",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "grouping_node_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "legacygroupid": null,
+                    "nodegroupid": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "grouping_node_id": "a2919893-9e40-4e26-a4cc-84754076b7f1",
+                    "legacygroupid": null,
+                    "nodegroupid": "a2919893-9e40-4e26-a4cc-84754076b7f1",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "new_node",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "New Node",
+                    "nodegroup_id": "7e7eb656-81c7-4703-8306-4bfc7cdb698b",
+                    "nodeid": "05bda0e7-04c5-4771-9b96-c15623e0590c",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "feature_id",
+                    "config": {},
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Feature ID",
+                    "nodegroup_id": "a2919893-9e40-4e26-a4cc-84754076b7f1",
+                    "nodeid": "0c19bb60-14f7-44b3-8d19-90166981f384",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "wmo_id",
+                    "config": {},
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "WMO ID",
+                    "nodegroup_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "nodeid": "0f821242-4c1b-4514-8a2e-05736d3e8634",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "new_resource_model",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Weather Station",
+                    "nodegroup_id": null,
+                    "nodeid": "48083e9f-0849-469a-8b2b-0950fd1ebc53",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "data_provider",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Data Provider",
+                    "nodegroup_id": "7e7eb656-81c7-4703-8306-4bfc7cdb698b",
+                    "nodeid": "4fa48aca-b628-4419-9bd8-a0bbea03b1bb",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 1,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "icao_id",
+                    "config": {},
+                    "datatype": "non-localized-string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ICAO ID",
+                    "nodegroup_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "nodeid": "604c17d5-0672-481e-adc3-d4d4fb553d4a",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "station_details",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Station Details",
+                    "nodegroup_id": "7e7eb656-81c7-4703-8306-4bfc7cdb698b",
+                    "nodeid": "7e7eb656-81c7-4703-8306-4bfc7cdb698b",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "station_identifiers",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Station Identifiers",
+                    "nodegroup_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "nodeid": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "station_location",
+                    "config": {
+                        "addToMap": true,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 8,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(239,132,19,0.7)",
+                        "pointHaloColor": "rgba(239,132,19,0.7)",
+                        "radius": 4,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": "Lat, Long and elevation of the weather station",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "is_immutable": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Station Location",
+                    "nodegroup_id": "a2919893-9e40-4e26-a4cc-84754076b7f1",
+                    "nodeid": "a2919893-9e40-4e26-a4cc-84754076b7f1",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "automatic_station",
+                    "config": {
+                        "falseLabel": {
+                            "en": "No"
+                        },
+                        "i18n_properties": [
+                            "trueLabel",
+                            "falseLabel"
+                        ],
+                        "trueLabel": {
+                            "en": "Yes"
+                        }
+                    },
+                    "datatype": "boolean",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Automatic Station",
+                    "nodegroup_id": "7e7eb656-81c7-4703-8306-4bfc7cdb698b",
+                    "nodeid": "bc1cb687-121d-4fdf-b6e2-4ec594457446",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "msc_id",
+                    "config": {},
+                    "datatype": "non-localized-string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "MSC ID",
+                    "nodegroup_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "nodeid": "c606af6e-08d5-4dda-a1a4-ad55eb696396",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "iata_id",
+                    "config": {},
+                    "datatype": "non-localized-string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "IATA ID",
+                    "nodegroup_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "nodeid": "ddbd8ded-2f60-473e-9548-20108425fe91",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 1,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "station_name",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Station Name",
+                    "nodegroup_id": "a055c71d-c2b7-4034-a8b3-5e1e921615c9",
+                    "nodeid": "eb232895-b133-48f6-8666-0ed172111ced",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": null,
+            "publication": {
+                "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                "most_recent_edit_id": null,
+                "notes": "Initial cut of station identifiers",
+                "publicationid": "ad6eebb2-bfeb-496a-82fd-aca72c7a84fa",
+                "published_time": "2026-03-16T19:26:38.775"
+            },
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "resource_instance_lifecycle": {
+                "id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75",
+                "name": {
+                    "en": "Standard"
+                },
+                "resource_instance_lifecycle_states": [
+                    {
+                        "action_label": {
+                            "en": "Revert to Draft"
+                        },
+                        "can_delete_resource_instances": true,
+                        "can_edit_resource_instances": true,
+                        "id": "9375c9a7-dad2-4f14-a5c1-d7e329fdde4f",
+                        "is_initial_state": true,
+                        "name": {
+                            "en": "Draft"
+                        },
+                        "next_resource_instance_lifecycle_states": [
+                            "f75bb034-36e3-4ab4-8167-f520cf0b4c58"
+                        ],
+                        "previous_resource_instance_lifecycle_states": [],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    },
+                    {
+                        "action_label": {
+                            "en": "Make Active"
+                        },
+                        "can_delete_resource_instances": false,
+                        "can_edit_resource_instances": true,
+                        "id": "f75bb034-36e3-4ab4-8167-f520cf0b4c58",
+                        "is_initial_state": false,
+                        "name": {
+                            "en": "Active"
+                        },
+                        "next_resource_instance_lifecycle_states": [
+                            "d95d9c0e-0e2c-4450-93a3-d788b91abcc8"
+                        ],
+                        "previous_resource_instance_lifecycle_states": [
+                            "9375c9a7-dad2-4f14-a5c1-d7e329fdde4f"
+                        ],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    },
+                    {
+                        "action_label": {
+                            "en": "Retire"
+                        },
+                        "can_delete_resource_instances": false,
+                        "can_edit_resource_instances": false,
+                        "id": "d95d9c0e-0e2c-4450-93a3-d788b91abcc8",
+                        "is_initial_state": false,
+                        "name": {
+                            "en": "Retired"
+                        },
+                        "next_resource_instance_lifecycle_states": [],
+                        "previous_resource_instance_lifecycle_states": [
+                            "f75bb034-36e3-4ab4-8167-f520cf0b4c58"
+                        ],
+                        "resource_instance_lifecycle_id": "7e3cce56-fbfb-4a4b-8e83-59b9f9e7cb75"
+                    }
+                ]
+            },
+            "root": {
+                "alias": "new_resource_model",
+                "config": {},
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "32e22d5c-3084-4ebe-b432-b3865389f3b9",
+                "hascustomalias": false,
+                "is_collector": false,
+                "is_immutable": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Weather Station",
+                "nodegroup_id": null,
+                "nodeid": "48083e9f-0849-469a-8b2b-0950fd1ebc53",
+                "ontologyclass": null,
+                "sortorder": 0,
+                "source_identifier_id": null,
+                "sourcebranchpublication_id": null
+            },
+            "slug": "weather_station",
+            "source_identifier_id": null,
+            "spatial_views": [],
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "user_permissions": {},
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.3 (Debian 16.3-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",
+        "git hash": "c4f042194e 2026-03-14 20:05:31 -0700",
+        "os": "Linux",
+        "os version": "6.12.69-linuxkit"
+    }
+}

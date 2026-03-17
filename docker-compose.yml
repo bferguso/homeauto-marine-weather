@@ -1,0 +1,49 @@
+name: marine-weather
+services:
+  marine-weather8-0:
+    container_name:  marine-weather
+    image: qed/marine-weather
+    build:
+      context: ..
+      dockerfile: marine-weather/Dockerfile
+    command: run_arches
+    volumes:
+      - ../arches/:/web_root/arches
+      - ../marine-weather/:/web_root/marine_weather
+      - ./:/web_root/marine_weather
+      - ../arches-component-lab/:/web_root/arches-component-lab
+      - ../arches-querysets/:/web_root/arches-querysets
+    env_file:
+      - ./docker/env_file.env
+    ports:
+      - 84:80
+      - 5692:5678
+    stdin_open: true
+    tty: true
+
+#  marine-weather-webpack-8-0:
+#    container_name: marine-weather-webpack-8-0
+#    image: bcgov/marine-weather-webpack-8-0
+#    build:
+#      context: ..
+#      dockerfile: marine-weather_8_0/docker/webpack/Dockerfile
+#    command: run_webpack
+#    volumes:
+#      - ../arches/:/web_root/arches
+#      - ./:/web_root/marine-weather_8_0
+#    env_file:
+#      - ./docker/webpack/env_file.env
+#    ports:
+#      - 8026:8021
+#    stdin_open: true
+#    tty: true
+
+networks:
+  default:
+    external: true
+    name: arches7-5-2-dev
+
+
+volumes:
+  arches-log-marine-weather8-0-0:
+  arches-static-marine-weather8-0-0:
